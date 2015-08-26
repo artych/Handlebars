@@ -222,8 +222,6 @@
 					<key>name</key>
 					<string>support.constant.handlebars</string>
 				</dict>
-			</dict>
-			<dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
