@@ -214,7 +214,7 @@
 		<key>else_token</key>
 		<dict>
 			<key>begin</key>
-			<string>(\{\{~?else|if|unless|action|yield)</string>
+			<string>(\{\{~?(else|if|unless|action|yield))</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
