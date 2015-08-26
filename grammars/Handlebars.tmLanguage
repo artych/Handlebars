@@ -138,21 +138,6 @@
 					<key>name</key>
 					<string>variable.parameter.handlebars</string>
 				</dict>
-				<key>4</key>
-				<dict>
-					<key>name</key>
-					<string>support.constant.handlebars</string>
-				</dict>
-				<key>5</key>
-				<dict>
-					<key>name</key>
-					<string>variable.parameter.handlebars</string>
-				</dict>
-				<key>6</key>
-				<dict>
-					<key>name</key>
-					<string>support.constant.handlebars</string>
-				</dict>
 			</dict>
 			<key>end</key>
 			<string>(~?\}\})</string>
@@ -910,6 +895,11 @@
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>support.constant.handlebars</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>support.constant.handlebars</string>
