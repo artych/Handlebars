@@ -214,7 +214,7 @@
 		<key>else_token</key>
 		<dict>
 			<key>begin</key>
-			<string>(\{\{~?(else|if|unless|action|yield|component))</string>
+			<string>(\{\{~?(else|if|unless|action|yield|component)) ([-a-zA-Z0-9_\./]+)\s?(@?[-a-zA-Z0-9_\./]+)*\s?(@?[-a-zA-Z0-9_\./]+)*\s?(@?[-a-zA-Z0-9_\./]+)*</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -222,7 +222,7 @@
 					<key>name</key>
 					<string>support.constant.handlebars</string>
 				</dict>
-				<key>2</key>
+				<key>3</key>
 				<dict>
 					<key>name</key>
 					<string>variable.parameter.handlebars</string>
