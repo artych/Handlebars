@@ -223,6 +223,13 @@
 					<string>support.constant.handlebars</string>
 				</dict>
 			</dict>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.parameter.handlebars</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>(~?\}\}\}*)</string>
 			<key>endCaptures</key>
